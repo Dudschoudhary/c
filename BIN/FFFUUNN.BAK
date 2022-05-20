@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<conio.h>
+int a,b;
+int display()
+{
+	int c;
+	c=a+b;
+	printf("Addtions is:-%d\n",c);
+	return display();
+}
+int subtration()
+{
+	int c;
+	c=a-b;
+	printf("Subtration is:-%d\n",c);
+	return subtration();
+}
+int multply()
+{
+	int c;
+	c=a*b;
+	printf("Mulplaction is:-%d\n",c);
+	return multply();
+}
+int divid()
+{
+	int c;
+	c=a/b;
+	printf("Dividestion is:-%d",c);
+	return divid();
+}
+void main()
+{
+	int x=19,y=10;
+	clrscr();
+	display();
+	subtration();
+	multply();
+	divid();
+	getch();

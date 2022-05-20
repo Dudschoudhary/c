@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+int n,i=1,j;
+int table()
+{
+	if(i<=10)
+	{
+		j=n*i;
+		i++;
+		printf("%d",j);
+		table();
+		return 0;
+	}
+
+}
+void main()
+{
+	clrscr();
+	printf("Enter a values:-");
+	scanf("%d",&n);
+	printf("%d Table is:- ",n);
+	table();
+	getch();
+
+}

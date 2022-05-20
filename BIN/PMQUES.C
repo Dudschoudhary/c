@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int i,hindi[5],english[5],social[5];
+   clrscr();
+   for(i=0;i<5;i++)
+   {
+       printf("Enter marks of student - %d\n",i+1);
+       printf("hindi : ");
+       scanf("%d",&hindi[i]);
+       printf("English : ");
+       scanf("%d",&english[i]);
+       printf("Social : ");
+       scanf("%d",&social[i]);
+       clrscr();
+   }
+   for(i=0;i<5;i++)
+   {
+	printf("Student %d : ",i+1);
+	printf("\t Hindi : %d \t English : %d \t social : %d\n",hindi[i],english[i],social[i]);
+
+   }
+   getch();
+}

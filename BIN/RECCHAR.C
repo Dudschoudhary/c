@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+char n;
+char c='a';
+int charactor()
+{
+	if(c<n)
+	{
+
+		printf("%c",c);
+		c++;
+		charactor();
+	}
+	else
+	{
+		return 0;
+	}
+}
+void main()
+{
+	clrscr();
+	printf("Charactor:-");
+	printf("Enter a value of charoctor.....");
+	scanf("%c",&n);
+	charactor();
+	getch();
+}

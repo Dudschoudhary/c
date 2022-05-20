@@ -1,0 +1,102 @@
+#include<stdio.h>
+#include<conio.h>
+ void main()
+ {
+ char c;
+ clrscr();
+ printf("enter a char:");
+ scanf("%c",&c);
+ if(c=='a')
+	printf("a is vowel");
+ else if ( c=='A')
+	printf("A is vowl");
+else if (c=='e')
+	printf(" e is vowel");
+else if( c=='i')
+	printf("i is vowl");
+else if (c=='o')
+	printf("o is vowl") ;
+else if(c=='u')
+	printf("u is vowel");
+else
+	printf("consonnt");
+getch();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

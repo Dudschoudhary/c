@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+int add(int x,int y)
+{
+	printf("\nx is : %d",x);
+	printf("\nY is : %d",y);
+	return x+y;
+}
+
+void main()
+{
+	 int a,b;
+	 clrscr();
+
+	 printf("Enter a value -: ");
+	 scanf("%d",&a);
+	 printf("Enter b value -: ");
+	 scanf("%d",&b);
+	 printf("\nSum of a and b : %d ",add(a,b));
+
+    getch();
+
+
+}

@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+int add(int a, int b)
+{
+	int c;
+	c=a+b;
+	printf("%d\n",c);
+	return c;
+}
+
+void main()
+{
+	int x,y,z;
+	clrscr();
+	printf("Enter two numbers:-");
+	scanf("%d %d",&x,&y);
+	z=add(x,y);
+	printf("%d",z);
+	getch();
+}

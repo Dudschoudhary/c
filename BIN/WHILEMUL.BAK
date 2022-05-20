@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,i=1;
+clrscr();
+printf("enter a value:-");
+scanf("%d",&a);
+while(i<=10)
+{
+printf("%d\n",i*a);
+i++;
+}
+getch();
+}
